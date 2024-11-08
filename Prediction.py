@@ -6,7 +6,7 @@ from sklearn.preprocessing import OrdinalEncoder, MinMaxScaler, LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 
 # Load the dataset
-df = pd.read_csv(r'C:\Users\Rukmal\PycharmProjects\pythonProject\Internship\Project_CKD\kidney_disease_cleaned2.csv')
+df = pd.read_csv('kidney_disease_cleaned2.csv')
 
 # Train/test split
 train, test = train_test_split(df, test_size=0.2, random_state=42)
